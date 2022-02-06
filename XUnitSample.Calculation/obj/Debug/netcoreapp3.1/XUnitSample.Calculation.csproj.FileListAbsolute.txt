@@ -1,0 +1,12 @@
+C:\Users\VOLKAN\source\repos\XUnitSample\XUnitSample.Calculation\bin\Debug\netcoreapp3.1\XUnitSample.Calculation.exe
+C:\Users\VOLKAN\source\repos\XUnitSample\XUnitSample.Calculation\bin\Debug\netcoreapp3.1\XUnitSample.Calculation.deps.json
+C:\Users\VOLKAN\source\repos\XUnitSample\XUnitSample.Calculation\bin\Debug\netcoreapp3.1\XUnitSample.Calculation.runtimeconfig.json
+C:\Users\VOLKAN\source\repos\XUnitSample\XUnitSample.Calculation\bin\Debug\netcoreapp3.1\XUnitSample.Calculation.runtimeconfig.dev.json
+C:\Users\VOLKAN\source\repos\XUnitSample\XUnitSample.Calculation\bin\Debug\netcoreapp3.1\XUnitSample.Calculation.dll
+C:\Users\VOLKAN\source\repos\XUnitSample\XUnitSample.Calculation\bin\Debug\netcoreapp3.1\XUnitSample.Calculation.pdb
+C:\Users\VOLKAN\source\repos\XUnitSample\XUnitSample.Calculation\obj\Debug\netcoreapp3.1\XUnitSample.Calculation.AssemblyInfoInputs.cache
+C:\Users\VOLKAN\source\repos\XUnitSample\XUnitSample.Calculation\obj\Debug\netcoreapp3.1\XUnitSample.Calculation.AssemblyInfo.cs
+C:\Users\VOLKAN\source\repos\XUnitSample\XUnitSample.Calculation\obj\Debug\netcoreapp3.1\XUnitSample.Calculation.csproj.CoreCompileInputs.cache
+C:\Users\VOLKAN\source\repos\XUnitSample\XUnitSample.Calculation\obj\Debug\netcoreapp3.1\XUnitSample.Calculation.dll
+C:\Users\VOLKAN\source\repos\XUnitSample\XUnitSample.Calculation\obj\Debug\netcoreapp3.1\XUnitSample.Calculation.pdb
+C:\Users\VOLKAN\source\repos\XUnitSample\XUnitSample.Calculation\obj\Debug\netcoreapp3.1\XUnitSample.Calculation.genruntimeconfig.cache
