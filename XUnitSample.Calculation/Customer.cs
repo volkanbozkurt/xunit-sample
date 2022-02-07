@@ -16,5 +16,10 @@ namespace XUnitSample.Calculation
 
             return 100;
         }
+
+        public string GetFullName(string firstName, string lastName)
+        {
+            return $"{firstName} {lastName}";
+        }
     }
 }

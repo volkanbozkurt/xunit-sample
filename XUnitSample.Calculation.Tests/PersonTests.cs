@@ -5,7 +5,8 @@ using Xunit;
 
 namespace XUnitSample.Calculation.Tests
 {
-    public class PersonTest
+    //For every test method, xUnit creates an instance of our test class to execute methods in parallel.
+    public class PersonTests
     {
         [Fact]
         public void MakeFullName_GivenTwoStrings_ReturnsConcatenatedString()

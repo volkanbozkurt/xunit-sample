@@ -5,15 +5,16 @@ using Xunit;
 
 namespace XUnitSample.Calculation.Tests
 {
+    //For every test method, xUnit creates an instance of our test class to execute methods in parallel.
     /*
      xUnit.Net’te üretilecek olan instance’ların üretim maliyetini düşürebilmek için ilgili sınıftan tek bir nesne üretilmeli
      ve tüm birim testlerinde o nesne kullanılmalıdır. Bunun için ‘IClassFixture’ interface’i kullanılabilir.
      */
-    public class CalculatorTest : IClassFixture<CalculatorFixture>
+    public class CalculatorTests : IClassFixture<CalculatorFixture>
     {
         private readonly CalculatorFixture _calculatorFixture;
 
-        public CalculatorTest(CalculatorFixture calculatorFixture)
+        public CalculatorTests(CalculatorFixture calculatorFixture)
         {
             _calculatorFixture = calculatorFixture;
         }

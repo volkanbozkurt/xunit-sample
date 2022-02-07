@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace XUnitSample.Calculation
+namespace XUnitSample.Calculation.Tests
 {
-    public class CalculatorFixture : IDisposable
+    public class CustomerFixture : IDisposable
     {
-        public Calculator Calculator => new Calculator();
+        public Customer Customer => new Customer();
 
         public void Dispose()
         {
