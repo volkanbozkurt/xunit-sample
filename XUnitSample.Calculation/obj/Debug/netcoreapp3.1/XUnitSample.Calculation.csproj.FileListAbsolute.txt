@@ -10,3 +10,4 @@ C:\Users\VOLKAN\source\repos\XUnitSample\XUnitSample.Calculation\obj\Debug\netco
 C:\Users\VOLKAN\source\repos\XUnitSample\XUnitSample.Calculation\obj\Debug\netcoreapp3.1\XUnitSample.Calculation.dll
 C:\Users\VOLKAN\source\repos\XUnitSample\XUnitSample.Calculation\obj\Debug\netcoreapp3.1\XUnitSample.Calculation.pdb
 C:\Users\VOLKAN\source\repos\XUnitSample\XUnitSample.Calculation\obj\Debug\netcoreapp3.1\XUnitSample.Calculation.genruntimeconfig.cache
+C:\Users\VOLKAN\source\repos\XUnitSample\XUnitSample.Calculation\obj\Debug\netcoreapp3.1\XUnitSample.Calculation.csprojAssemblyReference.cache

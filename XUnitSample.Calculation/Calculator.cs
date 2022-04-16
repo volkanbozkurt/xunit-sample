@@ -22,5 +22,10 @@ namespace XUnitSample.Calculation
         {
             return a + b;
         }
+
+        public bool IsOdd(int value)
+        {
+            return value % 2 == 1;
+        }
     }
 }

@@ -37,6 +37,48 @@ namespace XUnitSample.Calculation.Tests
             Assert.Equal(4.7, result);
         }
 
+        //With [Theory] and [InlineData] attribute, xUnit executes the test method with different input values.
+        //So, you do not need to write test methods separately for every input values
+        //These input values can only be used for this method. NOT SHAREABLE.
+        [Theory]
+        [InlineData(0, false)]
+        [InlineData(1, true)]
+        [InlineData(2, false)]
+        [InlineData(99, true)]
+        [InlineData(200, false)]
+        [InlineData(2005, true)]
+        public void IsOdd_GivenOddValueWithInlineData_ReturnsTrue(int value, bool expected)
+        {
+            var calc = _calculatorFixture.Calculator;
+            var actual = calc.IsOdd(value);
+            Assert.Equal(expected, actual);
+        }
+
+        //With [Theory] and [MemberData] attribute, xUnit executes the test method with different input values.
+        //So, you do not need to write test methods separately for every input values
+        //These input values can be used for every methods which apply this attribute. SHAREABLE
+        [Theory]
+        [MemberData(nameof(TestDataShare.OddOrEvenData), MemberType = typeof(TestDataShare))]
+        public void IsOdd_GivenOddValueWithMemberData_ReturnsTrue(int value, bool expected)
+        {
+            var calc = _calculatorFixture.Calculator;
+            var actual = calc.IsOdd(value);
+            Assert.Equal(expected, actual);
+        }
+
+        //With [Theory] and our Custom Attribute (in here, it is OddOrEvenData as an example),
+        //xUnit executes the test method with different input values.
+        //So, you do not need to write test methods separately for every input values
+        //These input values can be used for every methods which apply this attribute. SHAREABLE
+        [Theory]
+        [OddOrEvenData]
+        public void IsOdd_GivenOddValueWithOurCustomAttribute_ReturnsTrue(int value, bool expected)
+        {
+            var calc = _calculatorFixture.Calculator;
+            var actual = calc.IsOdd(value);
+            Assert.Equal(expected, actual);
+        }
+
         [Fact]
         //Trait attribute, test metotlarımızı Test Explorer'da görüntülerken kategorize etmemizi sağlar.
         [Trait("Category", "Fibonacci")]
